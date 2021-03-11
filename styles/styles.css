@@ -1,0 +1,54 @@
+body {
+    padding: 30px 50px 30px 50px;
+    margin: 61px 125px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: #000000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav {
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+}
+
+.sub-links {
+    margin-left: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFF;
+}
+
+.logo {
+    font-family: 'Baloo 2', bold;
+    font-size: 24px;
+    color: #FFFF;
+}
+
+a {
+    color: #FFFF;
+    text-decoration: none
+}
+
+section {
+    color: #FFFF;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 84px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+
+img {
+    object-fit: cover;
+}
