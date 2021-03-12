@@ -22,6 +22,7 @@ main {
     margin-left: auto;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFFF;
+    justify-content: space-around;
 }
 
 .logo {
@@ -35,20 +36,22 @@ a {
     text-decoration: none
 }
 
-section {
-    color: #FFFF;
-}
-
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 84px;
+    color: #FFFF;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
+    color: #FFFF;
+    display: block;
 }
 
 img {
+    display: flex;
     object-fit: cover;
+    width: 100%;
+    height: auto;
 }
