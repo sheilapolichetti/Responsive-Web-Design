@@ -19,10 +19,11 @@ main {
 }
 
 .sub-links {
-    margin-left: auto;
+    display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFFF;
-    justify-content: space-around;
+    margin-left: auto;
+
 }
 
 .logo {
@@ -33,7 +34,12 @@ main {
 
 a {
     color: #FFFF;
-    text-decoration: none
+    text-decoration: none;
+}
+
+.sub-links a {
+    margin-right: 1.5rem;
+    display: block;
 }
 
 h1 {
